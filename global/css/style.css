@@ -1,0 +1,182 @@
+/*******************
+====== GLOBAL=======
+*******************/
+
+/* VARIABLES - GLOBALES */
+
+:root {
+	--accent-hue: 200;
+	--accent-color: hsl(var(--accent-hue, 200), 50%, 30%);
+	
+	--fow-bg: #191919;
+	--fow-txt: rgb(142,142,142);
+	
+	--title-txt: lightgrey;
+	--title-bg: var(--accent-color);
+	
+	--title-2-txt: lightgrey;
+	--title-2-bg: #0e0e0e;
+	
+	--fow-link: var(--fow-txt);
+	--fow-link-alt: var(--title-2-txt);
+  
+	--sceditor-border: #0e0e0e;
+	--sceditor-txt: rgba(142,142,142,1);
+  
+	--g-pnj: #B785E6;
+	--g-l-ordre: #0093AD;
+	--g-sanguinaire: #FF2929;
+	--g-sang-blanc: #D68585;
+	--g-damballa: #DED788;
+	--g-pawnees: #58A878;
+	--g-enrages: #02733D;
+	--g-resistance: #F5914F;
+	--g-neutres: #807248;
+	--g-confrerie:#811B1B;
+	--g-sororite:#F000BC;
+}
+
+/* VARIABLES - SWITCHEROO */
+
+:root {
+	--sw-color-text: rgba(255, 255, 255, 0.87);
+	--sw-color-bg: var(--title-2-bg, #17141b);
+	--sw-color-delete: #e74c3c;
+	--sw-color-tooltip: #010203;
+	--sw-color-squircle: var(--fow-bg, #201f2e);
+	--sw-color-accent: var(--accent-color, #b14255);
+	--sw-color-accent-hover: hsl(var(--accent-hue, 200), 50%, 30%);
+	--sw-color-button: var(--fow-txt, #aaa2f2);
+	--sw-color-pill: #ffffff;
+	--sw-gap-size: 10px;
+	--sw-ease: cubic-bezier(0.4, 0.0, 0.2, 1);
+	--sw-ease-bounce: cubic-bezier(0.43, 0.09, 0.38, 2.56);
+}
+
+/* CATEGORIES - ANIMATIONS */
+
+:root{
+	--pulse_bg-light-low: 18%;
+	--pulse_bg-light-high: 35%;
+	--pulse_bg-hue: var(--accent-hue, 195);
+
+	--img-note-hue: 100;
+	--img-annonce-hue: 190;
+	--img-locked-bg: #242424;
+}
+
+@keyframes pulse_bg {
+	0% {background-color: hsl(var(--pulse_bg-hue), 100%, var(--pulse_bg-light-low, 10%));}
+	50% {background-color: hsl(var(--pulse_bg-hue), 100%, var(--pulse_bg-light-high, 30%));}
+	100% {background-color: hsl(var(--pulse_bg-hue), 100%, var(--pulse_bg-light-low, 10%));}
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar{
+	width:10px
+}
+
+::-webkit-scrollbar-track{
+	background-color:#000
+}
+
+::-webkit-scrollbar-thumb{
+	BACKGROUND-COLOR:var(--accent-color,#999)
+}
+
+/* GROUPES */
+
+[style*="#B785E6" i] {color: var(--g-pnj)!important;}
+[style*="#0093AD" i] {color: var(--g-l-ordre)!important;}
+[style*="#FF2929" i] {color: var(--g-sanguinaire)!important;}
+[style*="#D68585" i] {color: var(--g-sang-blanc)!important;}
+[style*="#DED788" i] {color: var(--g-damballa)!important;}
+[style*="#58A878" i] {color: var(--g-pawnees)!important;}
+[style*="#02733D" i] {color: var(--g-enrages)!important;}
+[style*="#811B1B" i] {color: var(--g-confrerie)!important;}
+[style*="#F5914F" i] {color: var(--g-resistance)!important;}
+[style*="#807248" i] {color: var(--g-neutres)!important;}
+[style*="#F000BC" i] {color: var(--g-sororite)!important;}
+
+/* SURCHARGE FA */
+
+.bodyline {
+	padding-top: 100px!important;
+}
+
+a {
+	text-decoration:none!important;
+	cursor:pointer!important;
+}
+
+a:hover {
+	cursor:pointer!important;
+}
+
+a:not(.mainmenu),
+a:not(.mainmenu):link,
+a:not(.mainmenu):visited,
+a:not(.mainmenu):hover {
+	color: var(--accent-color);
+}
+
+.gen,
+.genmed,
+.gensmall {
+	color: var(--fow-txt, inherit);
+}
+
+table:not(.bodylinewidth),
+table tr,
+table tr th,
+table tr td{
+	padding: 0!important;
+	margin: 0!important;
+	border: none!important;
+}
+
+.cattitle {
+	color: var(--accent-color);
+}
+
+td.cat, td.catBottom, td.catHead, td.catLeft, td.catRight, td.catSides,
+th, .thLeft, .thRight {
+	background-color: var(--title-2-bg, inherit)!important;
+	color: var(--title-2-txt)!important;
+}
+
+.secondarytitle, .secondarytitle h2 {
+	color: var(--title-txt)!important;
+}
+
+.row1,.row1.over,
+.row2,
+.row3,.row3.over,.row3Right,
+.fb_or {
+	background-color: var(--fow-bg, inherit)!important;
+	/* color: var(--title-txt)!important; */
+	color: var(--fow-txt)!important;
+} 
+
+input, select, textarea {
+	background-color: var(--title-2-bg)!important;
+	color: var(--title-2-txt)!important;
+	border: none;
+}
+
+.forumline {
+	background:none!important;
+	border:none;
+}
+
+#i_logo {
+	width: 100%;
+}
+
+body > a[href="/"]{
+	display: block;
+	background: linear-gradient(to bottom, var(--accent-color) 90%, transparent 90%);
+	text-align: center;
+	width: 100%;
+}

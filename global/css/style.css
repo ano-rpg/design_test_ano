@@ -999,6 +999,7 @@ ul#notif_list {
     margin-bottom: 5px;
     border-bottom: 1px solid var(--title-3-txt);
     padding-bottom: 5px;
+    font-size: 10px;
 }
 .ano_cate_links {
     grid-area: ano_cate_links;
@@ -1015,6 +1016,7 @@ grid-area: ano_cate_title;
     line-height: 1.5;
     font-family: Arial;
     margin-left: 10px;
+    height: 24px;
 }
 
 .ano_cate_title a {
@@ -1037,6 +1039,7 @@ grid-area: ano_cate_title;
     text-transform: uppercase;
     line-height: 3;
     text-align: right;
+    height: 24px;
 }
 
 .ano_cate_avatar {
@@ -1058,6 +1061,7 @@ grid-area: ano_cate_title;
     overflow: auto;
     text-align: justify;
     padding: 10px;
+    height: 90px;
 }
 
 .ano_cate_lastmess {
@@ -1065,6 +1069,7 @@ grid-area: ano_cate_title;
     text-align: center;
     padding-top: 10px;
     font-size: 13px;
+    height: 90px;
 }
 
 .ano_cate_lastmess a {

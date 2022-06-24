@@ -20,6 +20,9 @@
         --title-3-bg: #5e4170;
         --title-3-bg-clair: #c66bff;
 	
+	--present: #55ff67;
+	--absent: #ffb80c;
+	
 	--fow-link: var(--fow-txt);
 	--fow-link-alt: var(--title-2-txt);
   

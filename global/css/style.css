@@ -5,8 +5,8 @@
 /* VARIABLES - GLOBALES */
 
 :root {
-	--accent-hue: 200;
-	--accent-color: hsl(var(--accent-hue, 200), 50%, 30%);
+	--accent-hue: 328!important;
+	--accent-color: var(--title-3-bg);
 	
 	--fow-bg: #fdead9;
 	--fow-txt: #000000;

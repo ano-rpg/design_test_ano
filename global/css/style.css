@@ -1080,4 +1080,5 @@ grid-area: ano_cate_title;
 
 .forumline {
     border: 2px var(--title-2-bg) solid;
+	    background: var(--fow-bg);
 }

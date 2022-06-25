@@ -43,24 +43,6 @@
 }
 
 
-/* CATEGORIES - ANIMATIONS */
-
-:root{
-	--pulse_bg-light-low: 18%;
-	--pulse_bg-light-high: 35%;
-	--pulse_bg-hue: var(--accent-hue, 195);
-
-	--img-note-hue: 100;
-	--img-annonce-hue: 190;
-	--img-locked-bg: #242424;
-}
-
-@keyframes pulse_bg {
-	0% {background-color: hsl(var(--pulse_bg-hue), 100%, var(--pulse_bg-light-low, 10%));}
-	50% {background-color: hsl(var(--pulse_bg-hue), 100%, var(--pulse_bg-light-high, 30%));}
-	100% {background-color: hsl(var(--pulse_bg-hue), 100%, var(--pulse_bg-light-low, 10%));}
-}
-
 /* SCROLLBAR */
 
 ::-webkit-scrollbar{

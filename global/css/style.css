@@ -30,7 +30,7 @@
 	--sceditor-border: #0e0e0e;
 	--sceditor-txt: rgba(142,142,142,1);
   
-	--g-pnj: #B785E6;
+	--g-pnj: var(--title-2-bg);
 	--g-l-ordre: #0093AD;
 	--g-sanguinaire: #FF2929;
 	--g-sang-blanc: #D68585;

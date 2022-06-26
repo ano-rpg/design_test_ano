@@ -55,7 +55,7 @@
 }
 
 ::-webkit-scrollbar-thumb{
-	BACKGROUND-COLOR:var(--accent-color,#999)
+	BACKGROUND-COLOR:var(--title-2-bg)
 }
 
 td.cat, td.catBottom, td.catHead, td.catLeft, td.catRight, td.catSides,

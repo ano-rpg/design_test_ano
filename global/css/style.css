@@ -1426,6 +1426,7 @@ top:20px
 	flex-grow: 1;
 	flex-shrink: 1;
 	padding-right: 5px;
+	font-size: 12px;
 }
 
 .ano_pa_calendar_content {
@@ -1441,6 +1442,7 @@ top:20px
     color: var(--title-2-bg);
     border-bottom: 1px solid rgb(255 246 238);
     margin-top: 10px;
+    font-size:12px
 }
 
 .ano_pa_calendar_content span:first-child,
@@ -1453,13 +1455,19 @@ top:20px
 .ano_pa2_marche { grid-area: ano_pa2_marche; }
 
 .ano_pa2_marche_content {
-    height: 245px;
+    height: 225px;
     overflow: auto;
+    font-size: 12px;
+    text-align: justify;
+    padding: 10px;
 }
 
 .ano_pa2_intrigues_content{
-    height: 245px;
+    height: 225px;
     overflow: auto;
+    font-size: 12px;
+    text-align: justify;
+    padding: 10px;
 }
 
 .ano_pa2_intrigues_content span,
@@ -1471,6 +1479,7 @@ top:20px
     color: var(--title-2-bg);
     border-bottom: 1px solid rgb(255 246 238);
     margin-top: 10px;
+    font-size: 12px;
 }
 
 /*********************Premiere partie*********************/

@@ -2397,7 +2397,7 @@ span.profil_label {
 }
 /* .systab .contents => les conteneurs des contenus associés aux onglets  */
 .systab .contents {
-    color: white;
+    color: black;
     background: var(--cover-color);
     margin: 4px;
     padding: 10px 5px 5px 5px;

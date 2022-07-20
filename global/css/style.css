@@ -2553,7 +2553,7 @@ grid-area: ano_sub_desc;
     font-style: italic;
 }
 
-.ano_sub_pages { grid-area: ano_sub_pages;font-size: 12px; }
+.ano_sub_pages { grid-area: ano_sub_pages;font-size: 12px; padding-left:5px }
 
 .ano_sub_answ {
     align-self: center;

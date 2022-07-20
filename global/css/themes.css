@@ -212,3 +212,179 @@ body.werewolf .sceditor-group {
     background: var(--fow-bg)!important;
     border: 1px solid black!important;
 }
+
+/***************************** THEME NEON *****************************/
+
+body.neon {
+  --title-2-bg: #863751;
+  --title-3-bg: #135aac;
+  --accent-color: var(--title-3-bg);
+  
+  --fow-bg: #000000;
+  --title-txt: lightgrey;
+  
+  background-image:linear-gradient(to bottom, rgb(0 0 0 / 55%), rgb(0 0 0 / 75%)), url(https://static.vecteezy.com/ti/photos-gratuite/p1/2317574-mur-de-brique-vide-avec-neon-bleu-et-rose-gratuit-photo.jpg)!important;
+  background-attachment: fixed, fixed;
+  background-size: cover, cover;
+}
+
+body.neon #i_logo {
+  content: url("https://cdn.discordapp.com/attachments/782166024816295937/913853194801647626/ban-neon-1920.gif");
+  box-shadow: 0 0 5px black, 0 0 10px black, 0 0 10px black;
+}
+
+body.neon .ano_navigation_main{
+  background-image: linear-gradient(-90deg, rgba(134,55,81,1) 0%, rgba(134,55,81,1) 30%, rgba(2,96,186,1) 100%);
+}
+
+body.neon #ano_pa_contexte_title, body.neon .ano_pa_date span, body.neon .ano_pa_title {
+  background: linear-gradient(-90deg, var(--title-2-bg), var(--title-3-bg));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body.neon .ano_pa_slider .slider_prev, body.neon .ano_pa_slider .slider_next{
+  background: rgb(19 90 172 / 59%);
+}
+
+body.neon .ano_pa, body.neon .ano_pa2 {
+  color: lightgray;
+}
+
+body.neon .paonglet img {
+  border: 2px solid #863751!important;
+}
+
+body.neon .ano_title_cate h2 {
+  background: linear-gradient(-90deg, var(--title-2-bg), var(--title-3-bg));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body.neon .ano_cate{
+  color: lightgray; 
+}
+
+body.neon .ano_cate_avatar img {
+  border: 1px solid;
+  border-image-source: linear-gradient(to bottom, var(--title-2-bg), var(--title-3-bg));
+  border-image-slice: 1;
+}
+
+body.neon .ano_cate_submess{
+  border-image-source: linear-gradient(to right, var(--title-2-bg), var(--title-3-bg));
+  border-image-slice: 1;
+}
+
+body.neon .ano_cate_title{
+  border-image-source: linear-gradient(to left, var(--title-2-bg), var(--title-3-bg));
+  border-image-slice: 1;
+}
+
+body.neon .qeel_container, body.neon .q_recent .gensmall{
+  color: lightgray;
+  font-size: 11px;
+}
+
+body.neon .qeel_group_description a {
+    color: lightgrey;
+}
+
+body.neon .qeel_group_description a:hover {
+    text-decoration: underline!important;
+}
+
+body.neon .widget-type-prime-days * {
+  color: lightgray;
+}
+
+body.neon .finpageaccueil a {
+  color: lightgrey;
+}
+
+body.neon .debutpagedaccueil .gensmall {
+  color: lightgrey;
+}
+
+body.neon .finbasdepage .gen, body.neon .finbasdepage .gen a {
+  color: lightgray;
+}
+
+body.neon #fa_toolbar #fa_right #notif_list li .contentText a {
+  color: lightgray!important;
+}
+
+body.neon .ano_sub{
+  color: lightgray
+}
+
+body.neon .ano_sub_titleauthor a {
+  color: var(--accent-color);
+}
+
+body.neon .ano_sub_pages a {
+    color: lightgray;
+}
+
+body.neon .ano_post_message{
+  color: lightgray;
+}
+
+body.neon .systab .tab:hover{
+  background: var(--title-3-bg);
+}
+
+body.neon .poster-list{
+  color: lightgray;
+}
+
+body.neon .pagination .gensmall a, body.neon .pagination .gensmall {
+  color: lightgray!important;
+}
+
+body.neon .sceditor-container iframe, .sceditor-container textarea {
+  color: lightgray!important;
+}
+
+body.neon .codebox dd{
+  background-color: #151515;
+}
+
+body.neon .spoiler_content {
+    color: #929191;
+    background-color: #151515;
+}
+
+body.neon .codebox .genmed {
+    color: lightgray;
+}
+
+/* Codes fiches */
+
+body.neon .S_Title{
+	text-align:center;
+	font-size:45px;
+	padding: 30px 0 15px 0;
+	font-family: 'Kaushan Script', cursive;
+	background-color: #f3ec78;
+	background-image: linear-gradient(45deg, #f05487, #4a9ad3);
+	background-size: 100%;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent; 
+	-moz-text-fill-color: transparent;
+}
+
+body.neon #P_title,
+body.neon #P_subtitle,
+body.neon .P_cadre h2{
+	font-family: 'Kaushan Script', cursive;
+}
+
+body.neon .S_cadre, body.neon .P_cadre {
+    background-color: #111111;
+    border: 1px solid;
+    border-image-source: linear-gradient(to bottom, var(--title-2-bg), var(--title-3-bg));
+    border-image-slice: 1;
+}

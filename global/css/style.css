@@ -2442,7 +2442,7 @@ grid-area: ano_post_underbar;
 
 .ano_sub {  display: grid;
   grid-template-columns: 10px 610px 70px 70px 207px;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr auto 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:

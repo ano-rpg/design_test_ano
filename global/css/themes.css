@@ -1,0 +1,214 @@
+/***************************** THEME WEREWOLF *****************************/
+
+body.werewolf #i_logo {
+	content: url("https://zupimages.net/up/22/14/qu26.png");
+	box-shadow: 0 0 5px black, 0 0 10px black, 0 0 10px black;
+}
+
+body.werewolf {
+	background:#000000!important;
+	--fow-bg: #141415!important;
+	--title-txt: #000906!important;
+	--sceditor-border: #191919!important;
+	--sceditor-txt: rgba(142,142,142,1)!important;
+	--title-2-bg: #680e0e!important;
+	--title-3-bg: #444445!important;
+  
+	--g-pnj: #680e0e!important;
+}
+
+body.werewolf .switcheroo__squircle:hover{
+  background: #680e0e!important;
+}
+
+body.werewolf .ano_navigation a{
+  color:white!important}
+
+body.werewolf .ano_pa, body.werewolf .ano_pa2{
+  color: #c7c7c7;
+}
+
+body.werewolf .ano_pa2 a, body.werewolf .ano_pa a {
+    color: var(--title-2-bg);
+}
+
+body.werewolf .ano_pa_slider .slider_prev, body.werewolf .ano_pa_slider .slider_next{
+  background: rgb(104 14 14 / 60%)!important;
+}
+
+body.werewolf .ano_pa_calendar_content span, body.werewolf .ano_pa_news_txt_content span, body.werewolf .ano_pa2_intrigues_content span, body.werewolf .ano_pa2_marche_content span{
+  border-bottom: 1px solid var(--title-3-bg)!important;
+}
+
+body.werewolf .activite a{
+  color:black
+}
+
+body.werewolf .ano_cate{
+  color: #c7c7c7;
+  border-bottom: 1px solid var(--title-3-bg)!important;
+}
+
+body.werewolf::-webkit-scrollbar-thumb {
+    BACKGROUND-COLOR: #680e0e!important;
+}
+
+body.werewolf img[src="https://2img.net/zupimages.net/up/2/129196351.gif"] {background: url(https://media.discordapp.net/attachments/549523156633649163/990605583759577128/unknown.png)!important}
+
+body.werewolf .ano_cate_avatar img{
+  border: 1px solid var(--title-3-bg);}
+
+body.werewolf .ano_title_cate h2::before {
+    content: "——— ";
+    letter-spacing: -4.5px;
+    padding-right: 12px;
+}
+
+body.werewolf .qeel_container{
+  color: #c7c7c7;
+}
+
+body.werewolf {
+  color: #c7c7c7!important;
+}
+
+body.werewolf .S_cadre {
+    background-color: #111111;
+    border: 1px solid #2f2f2f;
+  background-image:url(https://zupimages.net/up/22/14/tjzj.png);
+}
+
+body.werewolf .S_Title {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    padding: 30px 0 15px 0;
+    font-family: 'Girassol', cursive;
+  background:none;
+}
+
+body.werewolf .S_line {
+    border-bottom: 1px solid #2f2f2f;
+}
+
+body.werewolf a {
+color:var(--title-2-bg)
+}
+
+body.werewolf .S_sum {
+    border: 1px solid #272727;
+    background-color: #0a0a0a;
+}
+
+body.werewolf .S_sum:hover {
+    background-color: var(--title-2-bg);
+    color: white!important;
+}
+
+body.werewolf .S_cadre h1 {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    font-family: 'Girassol', cursive;
+}
+
+body.werewolf .S_cadre b {
+    color: var(--title-2-bg);
+}
+
+body.werewolf .S_cadre a {
+    color: var(--title-2-bg)!important;
+}
+
+body.werewolf .S_tips b {
+    color: #369460;
+}
+
+body.werewolf .S_warn b {
+    color: #c33939;
+}
+
+body.werewolf .P_cadre {
+    background-image: url(https://zupimages.net/up/22/14/tjzj.png);
+    background-color: #111;
+    border: 1px solid #2f2f2f;
+    font-size: 11px;
+  color:#c7c7c7!important;
+}
+
+body.werewolf #P_title {
+    color: white;
+    font-size: 45px;
+    padding: 30px 0 30px 0;
+    font-family: 'Girassol', cursive;
+    background-image: linear-gradient(45deg,var(--title-2-bg),hsl(264 50% 30% / 0));
+}
+
+body.werewolf .P_subtitle {
+    background-image: linear-gradient(45deg,var(--title-2-bg),hsl(264 50% 30% / 0));
+}
+
+body.werewolf .P_cadre h1 {
+    color: var(--title-2-bg);
+}
+
+body.werewolf .P_cadre b {
+    color: var(--title-2-bg);
+}
+
+body.werewolf .P_cadre h2 {
+    border-bottom: 1px solid var(--title-2-bg);
+}
+
+body.werewolf .P_end b {
+    color: var(--title-2-bg);
+}
+
+body.werewolf .P_end {
+    background-image: linear-gradient(45deg,hsl(264 50% 30% / 0),var(--title-2-bg));
+}
+
+body.werewolf .ano_post a{
+color:black}
+
+body.werewolf .gen, body.werewolf .genmed, body.werewolf .gensmall {
+    color: #c7c7c7;
+}
+
+body.werewolf dl.codebox.hidecode {
+    color: #c7c7c7;
+}
+
+body.werewolf .codebox dd {
+    background-color: #000000;
+    border: solid 1px var(--title-2-bg);
+}
+
+body.werewolf dd.quote {
+    color: white;
+}
+
+body.werewolf .widget-type-prime-days * {
+    color: #c7c7c7;
+}
+
+body.werewolf .qeel_title::before {
+    content: "——— ";
+    letter-spacing: -4.5px;
+    padding-right: 12px;
+}
+
+body.werewolf .buttonspartos a{
+color:black
+}
+
+body.werewolf .sceditor-container, body.werewolf .sceditor-toolbar, body.werewolf .sceditor-container textarea {
+    background: none!important;
+    border-color: var(--sceditor-border,#0e0e0e)!important;
+    color: var(--sceditor-txt, lightgrey)!important;
+}
+
+body.werewolf .sceditor-group {
+    background: var(--fow-bg)!important;
+    border: 1px solid black!important;
+}

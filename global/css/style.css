@@ -43,6 +43,35 @@
 	--g-sororite:#F000BC;
 }
 
+body .uwy.userway_p1 .uai {
+    top: 3px!important;
+    right: 38px!important;
+    bottom: auto!important;
+    left: auto!important;
+}
+
+.postbody {
+    color: #8E8E8E;
+}
+
+
+.ano_pa, .ano_pa2{color: black;}
+
+.gen, .genmed, .gensmall{
+  color: #000000;
+}
+
+.qeel_container{
+  color: #000000;
+}
+
+td.cat, td.catHead, td.catSides, td.catLeft, td.catRight, td.catBottom {
+border:none
+}
+
+td.catBottom a {
+    color: white;
+}
 
 /* SCROLLBAR */
 
@@ -104,6 +133,27 @@ th, .thLeft, .thRight {
     height: 25px;
     background-image: url(https://2img.net/i/fa/empty.gif);
     padding: 8px 3px 0px 3px;
+}
+
+.sceditor-group {
+    background: var(--fow-bg)!important;
+    border: 1px solid black!important;
+}
+
+.sceditor-container, .sceditor-toolbar, .sceditor-container textarea {
+    background: none!important;
+    border-color: var(--sceditor-border,#0e0e0e)!important;
+    color: var(--sceditor-txt, lightgrey)!important;
+}
+
+.sceditor-button-habillage div {
+    background: url(https://i.ibb.co/XX3SrN1/fav-habillage.png)!important;
+    background-size: 16px 16px!important;
+}
+
+.sceditor-button-usercode div, .sceditor-button-paroles div {
+    background: url(https://i.servimg.com/u/f44/20/29/00/76/star10.png)!important;
+    background-size: 16px 16px!important;
 }
 
 /***************************SWITCHEUR******************************/

@@ -256,6 +256,10 @@ body.neon .ano_navigation_main{
   background-image: linear-gradient(-90deg, rgba(134,55,81,1) 0%, rgba(134,55,81,1) 30%, rgba(2,96,186,1) 100%);
 }
 
+body.neon .gen, body.neon .genmed, body.neon .gensmall {
+    color: #c7c7c7;
+}
+
 body.neon input.post, body.neon textarea.post, body.neon select, body.neon #text_editor_iframe, body.neon textarea.inputbox{
   background: black;
   color: lightgray;

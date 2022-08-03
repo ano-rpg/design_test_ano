@@ -28,6 +28,25 @@ body.werewolf .ano_pa, body.werewolf .ano_pa2{
   color: #c7c7c7;
 }
 
+body.werewolf input.post, body.werewolf textarea.post, body.werewolf select, body.werewolf #text_editor_iframe, body.werewolf textarea.inputbox{
+  background-color: #141415;
+  color: rgba(142,142,142,1)!important;
+}
+
+body.werewolf #sceditor_smilies {
+    background-color: #141415;
+}
+
+body.werewolf #sceditor_smilies table {
+    background: #141415;
+}
+
+body.werewolf #sceditor_smilies #smilies_header {
+    color: #c4c4c4;
+    background-color: #680e0e;
+    height: 17px;
+}
+
 body.werewolf .ano_pa2 a, body.werewolf .ano_pa a {
     color: var(--title-2-bg);
 }

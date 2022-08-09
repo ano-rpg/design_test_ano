@@ -728,3 +728,8 @@ body.retro #nav_menu{
 body.retro .switcheroo__squircle:hover {
     background: #baa05a;
 }
+
+body.retro a.postlink:link{
+    text-decoration: underline;
+    color: var(--title-2-bg);
+}

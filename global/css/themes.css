@@ -533,6 +533,15 @@ body.retro .ano_cate_title{
   border-image-slice: 1;
 }
 
+body.retro .ano_cate_links a:hover {
+    color: var(--title-3-txt);
+}
+
+body.retro .ano_cate_links a {
+    color: var(--fow-txt);
+    border-bottom: 1px solid var(--fow-txt);
+}
+
 body.retro .qeel_container, body.retro .q_recent .gensmall{
   color: lightgray;
   font-size: 11px;

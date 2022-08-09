@@ -914,7 +914,7 @@ body #i_logo {
 
 #nav_menu {
     background-color: var(--title-3-bg);
-    padding: 20px;
+    padding: 10px 20px;
 }
 
 #nav_menu input#accent_picker {
@@ -935,13 +935,9 @@ label[for="theme_picker"] {
     color: white;
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    margin-top: 10px;
 }
 
 #nav_menu select#theme_picker {
-    margin-left: 19%;
-    margin-top: 10px;
-    padding: 10px 10px 10px 10px;
 }
 
 .boutonhautbas img {
@@ -1050,6 +1046,7 @@ ul#notif_list {
     color: var(--title-2-bg)!important;
     text-transform: uppercase;
     font-size: 24px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .ano_cate {
@@ -1627,6 +1624,7 @@ text-align: right;
     font-weight: bold;
     margin-bottom: 20px;
     margin-top: 25px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .qeel_title::before {

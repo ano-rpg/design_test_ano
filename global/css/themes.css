@@ -47,6 +47,10 @@ body.werewolf #sceditor_smilies #smilies_header {
     height: 17px;
 }
 
+body.werewolf .select::after{
+    background: #141415;
+}
+
 body.werewolf .ano_pa2 a, body.werewolf .ano_pa a {
     color: var(--title-2-bg);
 }

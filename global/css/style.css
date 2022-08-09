@@ -1283,7 +1283,7 @@ margin: 0;
   pointer-events: none;
   transform: rotate(90deg);
   font-size: 1.5em;
-  background: var(--fow-bg);
+  background:none;
 }
 
 

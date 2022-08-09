@@ -1036,6 +1036,10 @@ ul#notif_list {
 	color: var(---accent-color)!important;
 }
 
+.select::after{
+    background: var(--fow-bg);
+}
+
 /*******CATEGORIES**********/
 
 .ano_title_cate h2::before {

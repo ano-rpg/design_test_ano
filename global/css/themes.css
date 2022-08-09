@@ -473,6 +473,7 @@ body.retro {
   
   --fow-bg: #0e0e0e!important;
   --title-txt: lightgray;
+  --sceditor-txt: #d6d6d6;
   
   background-image: linear-gradient(to bottom, rgb(0 0 0 / 75%), rgb(0 0 0 / 95%)),url("https://cdn.discordapp.com/attachments/782174816513032213/911753896416915456/bg_retro.png");
   background-attachment: fixed, fixed;
@@ -639,6 +640,15 @@ body.retro .spoiler_content {
 
 body.retro .codebox .genmed {
     color: lightgray;
+}
+
+body.retro .gen, body.retro .genmed, body.retro .gensmall {
+    color: var(--sceditor-txt);
+}
+
+body.retro input.post, body.retro textarea.post, body.retro select, body.retro #text_editor_iframe, body.retro textarea.inputbox {
+    background-color: var(--fow-bg);
+    color: var(--sceditor-txt);
 }
 
 /* Codes fiches */

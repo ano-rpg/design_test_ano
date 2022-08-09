@@ -48,7 +48,7 @@ body.werewolf #sceditor_smilies #smilies_header {
 }
 
 body.werewolf .select::after{
-    background: #141415;
+    background: var(--fow-bg);
 }
 
 body.werewolf .ano_pa2 a, body.werewolf .ano_pa a {

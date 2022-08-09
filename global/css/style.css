@@ -1032,9 +1032,7 @@ ul#notif_list {
 	color: var(---accent-color)!important;
 }
 
-.select::after{
-    background: var(--fow-bg);
-}
+
 
 /*******CATEGORIES**********/
 
@@ -1282,11 +1280,10 @@ margin: 0;
   top: 20%;
   right: 0;
   padding: 0 15px;
-  background: white;
   pointer-events: none;
   transform: rotate(90deg);
   font-size: 1.5em;
-  background: #F9F9F9;
+  background: var(--fow-bg);
 }
 
 

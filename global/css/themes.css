@@ -240,6 +240,23 @@ body.werewolf .sceditor-group {
     border: 1px solid black!important;
 }
 
+/* PREDEFINIS */
+
+body.werewolf .Pr_cadre{width:500px;background-color:#111;margin:auto;text-align:justify;border:1px solid #2f2f2f;padding:10px;font-size:11px}
+body.werewolf .Pr_cadre b{color:var(--accent-color)} 
+body.werewolf .Pr_Dispo{position:absolute;z-index:1;margin-top:-35px;margin-left:16px;width:125px;height:175px;overflow:hidden;opacity:.5;transform:rotate(270deg);-webkit-transform:rotate(270deg)} 
+body.werewolf .Pr_Dispo div{margin-left:120px;margin-top:-50px;width:45px;height:300px;transform:rotate(-40deg);-webkit-transform:rotate(-40deg);transition:all linear .55s;-webkit-transition:all linear .55s} 
+body.werewolf .Pr_top{display:flex} 
+body.werewolf .Pr_top div:nth-of-type(1){width: 41%!important} 
+body.werewolf .Pr_top div:nth-of-type(2){padding-left:2px;width:58%} 
+body.werewolf .Pr_top span{background:#1f1f1f;color:#fff;margin:5px;display:inline-block;vertical-align:top;width:82px;padding:2px 0;overflow:hidden;font-size:9px;font-family:Arial;text-align:center;line-height:12px} 
+body.werewolf .Pr_mid div:nth-of-type(1){width: 50%!important;border-right:1px solid #2f2f2f} 
+body.werewolf .Pr_mid{display:flex} 
+body.werewolf .Pr_mid div:nth-of-type(2){padding-left:4px;width:60%} 
+body.werewolf .Pr_cadre h1{background-image: linear-gradient(45deg,var(--accent-color),hsl(264 50% 30% / 0));text-align: center;font-size: 15px;padding: 2px;font-variant: small-caps;margin-top:0px} 
+body.werewolf .Pr_relations img{float:left;margin-right:10px}
+body.werewolf .Pr_relations{min-height:50px}
+
 /***************************** THEME NEON *****************************/
 
 body.neon {

@@ -522,6 +522,7 @@ body.retro {
   
   --fow-bg: #0e0e0e!important;
   --title-txt: lightgray;
+  --title-2-txt:#221b1b;
   --sceditor-txt: #d6d6d6;
   
   background-image: linear-gradient(to bottom, rgb(0 0 0 / 75%), rgb(0 0 0 / 95%)),url("https://cdn.discordapp.com/attachments/782174816513032213/911753896416915456/bg_retro.png");

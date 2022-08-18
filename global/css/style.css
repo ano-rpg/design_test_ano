@@ -1920,6 +1920,7 @@ div#qeel_parto {
     width: 50%;
     background-color: var(--title-2-bg);
     transition-duration: 0.5s;
+    color: var(--title-2-txt);
 }
 
 .S_sum:hover {

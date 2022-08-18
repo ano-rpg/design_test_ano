@@ -51,7 +51,7 @@ body .uwy.userway_p1 .uai {
 }
 
 .postbody {
-    color: #000000;
+    color: var(--fow-txt);
 }
 
 .topictitle{color: var(--title-3-bg);}

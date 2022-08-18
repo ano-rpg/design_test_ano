@@ -464,6 +464,29 @@ body.neon .S_cadre, body.neon .P_cadre {
     border-image-slice: 1;
 }
 
+body.neon .fenetre{background-image:url('https://media.discordapp.net/attachments/782165619512311818/1007335051580686426/neonmusic.png')}
+
+/* Boutons Nouveau - Repondre - Verrouille */
+
+body.neon img[src="https://i.servimg.com/u/f23/20/37/66/52/t_nouv10.gif"] {background-image: url("https://cdn.discordapp.com/attachments/782166024816295937/912748935649587231/new_neon.png")}
+body.neon img[src="https://i.servimg.com/u/f23/20/37/66/52/t_repo10.gif"] {background-image: url("https://media.discordapp.net/attachments/782166024816295937/912723403826425866/repondre_neon.png")}
+body.neon img[src="https://i.servimg.com/u/f23/20/37/66/52/t_verr10.gif"] {width:125px;height:50px;background-image: url("https://cdn.discordapp.com/attachments/782166024816295937/912748935280484372/lock_neon.png")}
+
+/* Boutons Citer - Editer - X - Profil - MP - Fiche - Partie Perso */
+
+body.neon img[src="https://i.servimg.com/u/f23/20/37/66/52/l_quot10.gif"] {width: 40px;height: 20px;background: url("https://cdn.discordapp.com/attachments/782166024816295937/912754703476080700/citer_neon.png") center no-repeat;}
+body.neon img[src="https://i.servimg.com/u/f23/20/37/66/52/l_edit10.gif"] {width: 40px;height: 20px;background: url("https://cdn.discordapp.com/attachments/782166024816295937/912754703773884466/editer_neon.png") center no-repeat;}
+body.neon img[src="https://i.servimg.com/u/f23/20/37/66/52/l_dele10.gif"] {width: 21px;height: 20px;background: url("https://cdn.discordapp.com/attachments/782166024816295937/912754704130404432/X_neon.png") center no-repeat;}
+body.neon img[src="https://i.servimg.com/u/f23/20/37/66/52/l_prof10.gif"] {width: 40px;height: 20px;background: url("https://cdn.discordapp.com/attachments/782166024816295937/912759780286824458/profil_neon.png") center no-repeat;}
+body.neon img[src="https://i.servimg.com/u/f23/20/37/66/52/l_priv10.gif"] {width: 28px;height: 20px;background: url("https://cdn.discordapp.com/attachments/782166024816295937/912759779678625832/mp_neon.png") center no-repeat;}
+body.neon img[src="https://i.servimg.com/u/f23/20/37/66/52/l_fich10.gif"] {width: 40px;height: 20px;background: url("https://cdn.discordapp.com/attachments/782166024816295937/912759779485683763/fiche_neon.png") center no-repeat;}
+body.neon img[src="https://i.servimg.com/u/f23/20/37/66/52/l_pers10.gif"] {width: 115px;height: 20px;background: url("https://cdn.discordapp.com/attachments/782166024816295937/912759779942883388/perso_neon.png") center no-repeat;}
+
+/* Nouveaux Messages - Pas de nouveaux messages */
+
+body.retro img[src="https://2img.net/zupimages.net/up/2/129196351.gif"] {background: url(https://media.discordapp.net/attachments/782165619512311818/1007335052205625414/pnmn.png)!important}
+body.retro img[src="https://i.servimg.com/u/f23/20/37/66/52/nouvea10.gif"] {background: url(https://media.discordapp.net/attachments/782165619512311818/1007335051886866482/nmn2.png)!important}
+
 /***************************** THEME RETRO *****************************/
 
 body.retro {

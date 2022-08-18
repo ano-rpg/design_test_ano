@@ -734,6 +734,8 @@ body.retro a.postlink:link{
     color: var(--title-2-bg);
 }
 
+body.retro .fenetre{background-image:url('https://media.discordapp.net/attachments/782165619512311818/1007335229582757929/retromusic.png')}
+
 /* Boutons Nouveau - Repondre - Verrouille */
 
 body.retro img[src="https://i.servimg.com/u/f23/20/37/66/52/t_nouv10.gif"] {background-image: url("https://cdn.discordapp.com/attachments/782166024816295937/913029611858849792/new_art_deco.png")}

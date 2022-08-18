@@ -76,7 +76,29 @@ body.werewolf::-webkit-scrollbar-thumb {
     BACKGROUND-COLOR: #680e0e!important;
 }
 
+body.werewolf .fenetre{background-image:url('https://media.discordapp.net/attachments/782165619512311818/1007336374770335815/werewolfmusic.png')}
+
+/* Boutons Nouveau - Repondre - Verrouille */
+
+body.werewolf img[src="https://i.servimg.com/u/f23/20/37/66/52/t_nouv10.gif"] {width: 120px;height: 50px;background-image: url("https://media.discordapp.net/attachments/782165619512311818/962799712694591570/nouveau.png")}
+body.werewolf img[src="https://i.servimg.com/u/f23/20/37/66/52/t_repo10.gif"] {width: 125px;height: 50px;background-image: url("https://media.discordapp.net/attachments/782165619512311818/962799551293575268/repondre.png")}
+body.werewolf img[src="https://i.servimg.com/u/f23/20/37/66/52/t_verr10.gif"] {width: 170px;height: 60px;background-image: url("https://i.ibb.co/WfZ9Dqg/verrouill.png")}
+
+/* Boutons Citer - Editer - X - Profil - MP - Fiche - Partie Perso */
+
+body.werewolf img[src="https://i.servimg.com/u/f23/20/37/66/52/l_quot10.gif"] {width: 61px; height: 20px;background: url(https://i.servimg.com/u/f44/20/29/00/76/citer12.png)}
+body.werewolf img[src="https://i.servimg.com/u/f23/20/37/66/52/l_edit10.gif"] {width: 65px; height: 20px;background: url(https://i.servimg.com/u/f44/20/29/00/76/editer14.png)}
+body.werewolf img[src="https://i.servimg.com/u/f23/20/37/66/52/l_dele10.gif"] {width: 21px; height: 20px;background: url(https://i.servimg.com/u/f44/20/29/00/76/x18.png)}
+body.werewolf img[src="https://i.servimg.com/u/f23/20/37/66/52/l_prof10.gif"] {width: 28px; height: 20px;background: url(https://2img.net/i.ibb.co/bQQbxkw/profil.png)}
+body.werewolf img[src="https://i.servimg.com/u/f23/20/37/66/52/l_priv10.gif"] {width: 28px; height: 20px;background: url(https://i.servimg.com/u/f44/20/29/00/76/mp10.png)}
+body.werewolf img[src="https://i.servimg.com/u/f23/20/37/66/52/l_fich10.gif"] {width: 61px; height: 20px;background: url(https://i.servimg.com/u/f44/20/29/00/76/fiche10.png)}
+body.werewolf img[src="https://i.servimg.com/u/f23/20/37/66/52/l_pers10.gif"] {width: 80px; height: 20px;background: url(https://i.servimg.com/u/f44/20/29/00/76/perso_10.png)}
+
+/* Nouveaux Messages - Pas de nouveaux messages */
+
 body.werewolf img[src="https://2img.net/zupimages.net/up/2/129196351.gif"] {background: url(https://media.discordapp.net/attachments/549523156633649163/990605583759577128/unknown.png)!important}
+body.werewolf img[src="https://i.servimg.com/u/f23/20/37/66/52/nouvea10.gif"] {background: url(https://media.discordapp.net/attachments/782165619512311818/1007337195343978606/nmww.png)!important}
+
 
 body.werewolf .ano_cate_avatar img{
   border: 1px solid var(--title-3-bg);}

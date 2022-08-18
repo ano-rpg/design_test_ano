@@ -479,6 +479,10 @@ body.neon .P_cadre h2{
 	font-family: 'Kaushan Script', cursive;
 }
 
+body.neon .S_cadre a {
+    color: var(--title-2-bg)!important;
+}
+
 body.neon .S_cadre, body.neon .P_cadre {
     background-color: #111111;
     border: 1px solid;
@@ -726,6 +730,10 @@ body.retro #P_title {
 	font-size:12px;
   }
   
+body.retro .S_cadre a {
+    color: var(--title-2-bg)!important;
+}
+
   body.retro .S_sum:hover {
 	  color: #111111!important;
 	  transition-duration: 0.25s;

@@ -8,6 +8,7 @@ body.werewolf #i_logo {
 body.werewolf {
 	background:#000000!important;
 	--fow-bg: #141415!important;
+	--fow-txt: #b1b1b1;
 	--title-txt: #000906!important;
 	--sceditor-border: #191919!important;
 	--sceditor-txt: rgba(142,142,142,1)!important;
@@ -285,7 +286,7 @@ body.neon {
   --title-2-bg: #863751;
   --title-3-bg: #135aac;
   --accent-color: var(--title-3-bg);
-  
+  --fow-txt: #b1b1b1;
   --fow-bg: #000000;
   --title-txt: lightgrey;
   

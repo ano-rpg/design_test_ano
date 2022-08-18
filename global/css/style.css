@@ -54,6 +54,8 @@ body .uwy.userway_p1 .uai {
     color: var(--fow-txt);
 }
 
+a{color:var(--title-txt)}
+
 .topictitle{color: var(--title-3-bg);}
 
 .ano_pa, .ano_pa2{color: black;}

@@ -1843,6 +1843,9 @@ div#qeel_parto {
 .Pr_cadre h1{background-image: linear-gradient(45deg,var(--accent-color),hsl(264 50% 30% / 0));text-align: center;font-size: 15px;padding: 2px;font-variant: small-caps;margin-top:0px} 
 .Pr_relations img{float:left;margin-right:10px}
 .Pr_relations{min-height:50px}
+.Pr_cadre a {
+    color: var(--title-2-bg)!important;
+}
 
 /********************************MESSAGE STAFF*************************************/
 
@@ -1853,6 +1856,8 @@ div#qeel_parto {
     background: var(--fow-bg-light);
     padding: 20px;
 }
+
+.S_cadre a{color: var(--title-2-bg)!important;}
 
 .S_Title {
     font-family: 'Raleway', sans-serif;

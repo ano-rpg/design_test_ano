@@ -2574,4 +2574,26 @@ grid-area: ano_sub_desc;
     font-size: 12px;
 }
 
+/* Boutons Nouveau - Repondre - Verrouille */
 
+img[src="https://i.servimg.com/u/f23/20/37/66/52/t_nouv10.gif"],
+img[src="https://i.servimg.com/u/f23/20/37/66/52/t_repo10.gif"],
+img[src="https://i.servimg.com/u/f23/20/37/66/52/t_verr10.gif"] {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+body img[src="https://i.servimg.com/u/f23/20/37/66/52/t_nouv10.gif"] {width: 120px;height: 50px;background-image: url("https://media.discordapp.net/attachments/782165619512311818/1007294830814183505/unknown.png")}
+body img[src="https://i.servimg.com/u/f23/20/37/66/52/t_repo10.gif"] {width: 125px;height: 50px;background-image: url("https://media.discordapp.net/attachments/782165619512311818/1007294830814183505/unknown.png")}
+body img[src="https://i.servimg.com/u/f23/20/37/66/52/t_verr10.gif"] {width: 170px;height: 60px;background-image: url("https://i.ibb.co/WfZ9Dqg/verrouill.png")}
+
+/* Boutons Citer - Editer - X - Profil - MP - Fiche - Partie Perso */
+
+body img[src="https://i.servimg.com/u/f23/20/37/66/52/l_quot10.gif"] {width: 61px; height: 20px;background: url(https://i.servimg.com/u/f44/20/29/00/76/citer12.png)}
+body img[src="https://i.servimg.com/u/f23/20/37/66/52/l_edit10.gif"] {width: 65px; height: 20px;background: url(https://i.servimg.com/u/f44/20/29/00/76/editer14.png)}
+body img[src="https://i.servimg.com/u/f23/20/37/66/52/l_dele10.gif"] {width: 21px; height: 20px;background: url(https://i.servimg.com/u/f44/20/29/00/76/x18.png)}
+body img[src="https://i.servimg.com/u/f23/20/37/66/52/l_prof10.gif"] {width: 28px; height: 20px;background: url(https://2img.net/i.ibb.co/bQQbxkw/profil.png)}
+body img[src="https://i.servimg.com/u/f23/20/37/66/52/l_priv10.gif"] {width: 28px; height: 20px;background: url(https://media.discordapp.net/attachments/782165619512311818/1007304772107382857/mp.png)}
+body img[src="https://i.servimg.com/u/f23/20/37/66/52/l_fich10.gif"] {width: 61px; height: 20px;background: url(https://i.servimg.com/u/f44/20/29/00/76/fiche10.png)}
+body img[src="https://i.servimg.com/u/f23/20/37/66/52/l_pers10.gif"] {width: 80px; height: 20px;background: url(https://i.servimg.com/u/f44/20/29/00/76/perso_10.png)}
